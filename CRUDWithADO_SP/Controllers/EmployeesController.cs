@@ -27,6 +27,7 @@ namespace CRUDWithADO_SP.Controllers
             }
         }
 
+        //Method to get list of employees
         public ActionResult Index()  
         {
             DataTable dataTable = new DataTable();
